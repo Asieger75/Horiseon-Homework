@@ -20,10 +20,12 @@ body {
     font-size: 48px;
 }
 
+/* this is for the cute little "seo" in a slightly different color in the header */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Float right makes the element in the <div> parent the right side of the page. */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -46,17 +48,44 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
+/* Class exists only for the large background image to fill/stretch to fit */
 .hero {
-    height: 800px;
+    height: 1200px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.content-card {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* mad height prevents content card imgs from being too huge and skewing page. */
+.content-card img {
+    max-height: 200px;
+}
+
+.content-card h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* sets font of p to unifrom 16px. */
+p {
+    font-size: 16px;
 }
 
 .float-left {
@@ -69,123 +98,29 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
+/* sets "benefits" to the right hand side of the page. tweaks height and width to better fit the page */
 .benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
     float: right;
-    width: 20%;
+    width: 21%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 32px;
+    color: #ffffff;
     background-color: #2589bd;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/* tweaks the header and margin to play nice with the "benefits" from above. */
+.benefits h3, img {
     display: block;
     margin: 10px auto;
-    max-width: 150px;
+    max-width: 170px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+.benefits p {
+    margin-bottom: 30px;
 }
 
 .footer {
@@ -195,6 +130,7 @@ p {
     text-align: center;
 }
 
+/* tiny font for misc text at the bottom that's only there for legal reasons. */
 .footer h2 {
     font-size: 20px;
 }
