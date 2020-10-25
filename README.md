@@ -10,3 +10,7 @@ CSS should follow more sequentially
 CSS was also tweaked to fit the page slightly better
 
 Code has been properly formatted
+
+
+![hw1proof.png](https://github.com/Asieger75/Horiseon-Homework/blob/main/assets/images/hw1proof.png?raw=true)
+
